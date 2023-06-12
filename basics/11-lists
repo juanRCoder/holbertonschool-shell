@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "lista actual"
+ls
+ls -la
+echo "lista de basics: "
+ls /root/holbertonschool-shell/basics
+ls -la /root/holbertonschool-shell/basics
+echo "lista de boot: "
+ls /boot
+ls -la /boot
