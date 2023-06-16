@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $DECIMAL | awk '{ printf("%x\n", $1) }'
+echo "ibase=10; n=$DECIMAL; while(n>0) { printf \"%X\", n % 16; n = int(n/16) }; printf \"\n\""
