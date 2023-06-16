@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $DECIMAL | awk '{ printf "%x\n", $1 }'
+echo $DECIMAL | awk '{ printf("%x\n", $1) }'
